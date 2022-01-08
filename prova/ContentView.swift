@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var firstX: CGFloat = -200
-    @State var secondX: CGFloat = 200
+    @State private var firstX: CGFloat = -200
+    @State private var secondX: CGFloat = 200
 
     var body: some View {
         ZStack {
